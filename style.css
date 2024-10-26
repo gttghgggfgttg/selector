@@ -1,0 +1,53 @@
+p {
+    background-color: firebrick;
+    /*Цвет фона*/
+    width: 250px;
+}
+
+#paragrah {
+    /*Граница элемента*/
+    /*solid сплошная линия
+    dotted границы из точек
+    dashed пунктикная линия */
+    /*bordet:ширина тип линии цвет границы; */
+    border: 4px dashed red;
+}
+
+/*Селектор по классу */
+.text {
+    /*padding top Верхний внутрений доступ элемента */
+    /*padding right Правый внутрений доступ элемента */
+    /*padding bottom нижний внутрений доступ элемента */
+    /*padding left Левый внутрений доступ элемента */
+    padding-top: 10px;
+}
+
+/* Селектор по атрибутту */
+[href] {
+    color: rosybrown;
+}
+
+/*Мульти селектор */
+/*Применить указаные свойства для нескольких селекторов*/
+.block-link,
+.img-draw {
+    border: 2px dashed green;
+    width: 900px;
+    /*margin внешний доступ элемента*/
+    /*margin top Верхний внешний доступ элемента */
+    /*margin right Правый внешний доступ элемента */
+    /*margin bottom Нижний внешний доступ элемента */
+    /*margin left Левый внешний доступ элемента */
+    margin: 10px;
+}
+
+.btn {
+    background-color: blue;
+    border-radius: 10px;
+
+}
+
+/*Свойство применится  если у елемента будут все указаные селекторы*/
+.btn.active {
+    background-color: green;
+}
